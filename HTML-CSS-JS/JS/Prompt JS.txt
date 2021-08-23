@@ -1,0 +1,13 @@
+<button onclick="myFunction()">Enter your name</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+  var person = prompt("Please enter your name", "Jhon doe");
+  if (person != null) {
+    document.getElementById("demo").innerHTML =
+    "Hello " + person + "! ";
+  }
+}
+</script>
